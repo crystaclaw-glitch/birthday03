@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>A Little World of You ♡</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<svg width="0" height="0" style="position:absolute"><defs>
+<clipPath id="hc" clipPathUnits="objectBoundingBox"><path d="M.5,.96C.12,.66 0,.42 0,.26 0,.1 .12,0 .27,0 .38,0 .46,.06 .5,.15 .54,.06 .62,0 .73,0 .88,0 1,.1 1,.26 1,.42 .88,.66 .5,.96Z"/></clipPath>
+<symbol id="g" viewBox="0 0 60 60"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><rect x="8" y="27" width="44" height="28"/><rect x="5" y="18" width="50" height="10"/><path d="M30 18v37M30 18C20 5 13 14 22 18M30 18c10-13 17-4 8 0"/></g></symbol></defs></svg>
+<div id="fx"></div><canvas id="cf"></canvas>
+<main id="deck">
+
+<section class="slide cream" data-i="0">
+ <b class="dg" style="left:6%;top:12%">✦</b><b class="dg" style="right:7%;top:22%">🎀</b><b class="dg" style="left:10%;bottom:24%">✨</b>
+ <p class="scr sm r" style="--i:0">selamat ulang tahun ke-<span data-age></span>!</p>
+ <div class="num r" id="num" style="--i:1"><span id="nv">0</span><div class="cut" id="cut"><img src="images/child.jpg" alt=""><i class="tape"></i></div></div>
+ <p class="scr r" style="--i:2">Another year, another beautiful chapter.</p>
+ <p class="ser r" style="--i:3">Happy Birthday, my favorite girl.</p>
+ <p class="tip r" style="--i:4">ketuk angka &amp; fotonya 👆</p>
+</section>
+
+<section class="slide cream after" data-i="1">
+ <p class="scr r" style="--i:0">On this beautiful day, the world got a little brighter.</p>
+ <div class="cal r" style="--i:1"><div class="mo" id="mo"></div><div class="gr" id="gr"></div><div class="hb" id="hb">happy <span data-name></span> day! ♡<small>the sweetest soul</small></div></div>
+ <p class="ser sm r" style="--i:2">Pada hari ini, di suatu waktu bertahun-tahun yang lalu, dunia kedatangan seseorang yang kelak akan memiliki begitu banyak cerita untuk dituliskan. Tidak ada yang tahu akan sejauh apa langkahnya, berapa banyak tawa yang akan dibagikan, atau berapa banyak badai yang harus dilewati. Namun, satu hal yang pasti, kehadirannya adalah sesuatu yang patut disyukuri.</p>
+ <p class="tip">ketuk tanggal-tanggalnya, ada pesan tersembunyi 🔍</p>
+</section>
+
+<section class="slide wine after" data-i="2">
+ <button class="lace r" id="mw" style="--i:0">make a wish!</button>
+ <div class="side l"><i data-t="Cheers! 🥂 Untuk semua hal baik yang sedang menujumu">cheers!</i><svg class="gi" data-t="Satu hadiah kecil: senyum dari aku 🎁"><use href="#g"/></svg><i data-t="Celebrate! Hari ini kamu boleh bersenang-senang tanpa rasa bersalah 🎉">celebrate</i></div>
+ <svg class="cake r" id="cake" style="--i:1" viewBox="0 0 200 230"><g fill="none" stroke="#f2e8d3" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="100" cy="205" rx="86" ry="10"/><path d="M26 140v58c0 8 148 8 148 0v-58"/><ellipse cx="100" cy="140" rx="74" ry="11"/><path d="M42 160q16 12 32 0t32 0 32 0 20 6M32 182q20 10 34 0t34 0 34 0 28 4"/><path d="M52 96v44M148 96v44"/><ellipse cx="100" cy="96" rx="48" ry="8"/><path d="M60 118q13 10 26 0t26 0 26 0"/><path d="M100 90c-14-18-30-6-18 4 6 4 14 0 18-4 4 4 12 8 18 4 12-10-4-22-18-4zM94 94c-8 14-14 28-22 38M106 94c8 14 14 28 22 38"/></g>
+  <g class="cd" stroke="#f2e8d3" stroke-width="5" stroke-linecap="round"><path d="M70 82v-20M100 78v-24M130 82v-20"/></g>
+  <g class="fl"><ellipse cx="70" cy="54" rx="5" ry="9" fill="#ffd77a"/><ellipse cx="100" cy="46" rx="5" ry="9" fill="#ffd77a"/><ellipse cx="130" cy="54" rx="5" ry="9" fill="#ffd77a"/></g></svg>
+ <div class="side rr"><span class="blw">blow the candles</span><b class="bal" data-t="Balon pertama: semoga hari ini seringan balon 🎈">🎈</b><b class="bal" data-t="Balon kedua: semoga mimpimu terbang setinggi ini 🎈">🎈</b></div>
+ <p class="ser r wm" id="wm" style="--i:2">Semoga tahun ini menjadi tempat bagi semua doa baikmu untuk menemukan jalannya. Semoga hal-hal yang selama ini kamu tunggu akhirnya datang dengan cara yang paling indah.</p>
+ <button class="btn r" id="bl" style="--i:3">Blow the Candles 🕯️</button><button class="lnk" id="mic">atau tiup lewat mic 🎤</button>
+</section>
+
+<section class="slide cream after" data-i="3">
+ <b class="dg" style="right:8%;top:14%">🎀</b>
+ <p class="scr big r" style="--i:0">forever young</p>
+ <div class="hw r" id="hw" style="--i:1"><div class="ho"><div class="hp film"><img src="images/portrait.jpg" alt=""><i class="gn"></i><i class="sc"></i></div></div></div>
+ <p class="scr r" id="hs" style="--i:2">#shes<span data-age></span>!</p>
+ <p class="tip">ketuk hatinya untuk &quot;mencuci&quot; film 🎞️</p>
+</section>
+
+<section class="slide wine after" data-i="4">
+ <p class="scr r" style="--i:0">to my dearest, <span data-name></span></p>
+ <div class="env r" id="env" style="--i:1"><div class="lt" id="lt"><i class="lc"></i><p>Untuk <span data-name></span>, kesayanganku...<br><small>(ketuk surat ini untuk membaca)</small></p></div><div class="bk"></div><div class="fp"></div><button class="seal" id="seal">♥</button></div>
+ <p class="tip" id="et">ketuk segel lilinnya 💌</p>
+ <div id="lm"><div class="sheet"><button class="x" id="lx">✕</button><h3 class="scr big">to my dearest, <span data-name></span></h3><p id="lb"></p></div></div>
+</section>
+
+<section class="slide cream after" data-i="5">
+ <p class="scr big r" style="--i:0"><span data-age></span> reasons</p><p class="ser sm r" style="--i:1">why you are special <small id="rc">0</small></p>
+ <ol class="rs r" id="rs" style="--i:2"></ol>
+</section>
+
+<section class="slide wine after" data-i="6">
+ <p class="scr r" style="--i:0">things that remind me of you</p>
+ <div class="pg r" id="pg" style="--i:1"></div>
+</section>
+
+<section class="slide cream after" data-i="7">
+ <b class="dg" style="left:6%;top:10%">✦</b>
+ <p class="scr big r" style="--i:0">i hope life gives you</p>
+ <div class="wds r" id="wds" style="--i:1"></div>
+ <div class="gs r" style="--i:2"><svg class="g1"><use href="#g"/></svg><svg class="g2"><use href="#g"/></svg><svg class="g3"><use href="#g"/></svg></div>
+ <p class="tip">ketuk setiap harapan &amp; hadiahnya 🎁</p>
+</section>
+
+<section class="slide wine after" data-i="8">
+ <div class="cds r" style="--i:0"><i></i><i></i><i></i></div>
+ <p class="ser r" style="--i:1">May this birthday bring you endless happiness and unforgettable memories.</p>
+ <div class="lk r" id="lk" style="--i:2"><div class="lh"><img src="images/child.jpg" alt=""><em class="ld"></em></div><div class="lh"><img src="images/now.jpg" alt=""><em class="ld"></em></div></div>
+ <p class="scr r" id="fm" style="--i:3">Happy Birthday, <span data-nick></span> ♡</p>
+ <p class="tip" id="lp">ketuk liontinnya 🔓</p><button class="lnk" id="rp">↺ buka dari awal</button>
+</section>
+
+<nav id="ui"><button id="prev">←</button><div id="dots"></div><span id="num2">01 / 09</span><button id="next">Next →</button></nav>
+</main><div id="toast"></div>
+<script src="script.js"></script></body></html>
